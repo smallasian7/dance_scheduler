@@ -7,6 +7,7 @@ from get_conflicts import get_conflicts
 from assign_class import assign_class
 
 TIME_SLOT_DUR = 30      # minutes
+NUM_ROOMS = 4           # Number of rooms
 unscheduled_list = []   # List of classes that could not be scheduled
 
 # Each 'None' element is a 30 minute segment
@@ -50,7 +51,13 @@ with open('class_list.json') as file:
         duration = item['duration']
         conflicts = item['conflicts']
 
-        for day in days:
+        # Boolean to determine whether the dance class has been successfully scheduled
+        scheduled_flag = False
+
+        num_days = len(days)
+        num_rooms =
+
+        while day in days and not scheduled_flag:
             for room in schedule[day]:
                 for time_slot in range(len(room)):
                     if schedule[day][room][time_slot] is None:
@@ -61,6 +68,7 @@ with open('class_list.json') as file:
                             # Assign to room
                             num_time_slots = math.ceil(duration/TIME_SLOT_DUR)
                             schedule = assign_class(schedule, day, room, name, time_slot, num_time_slots)
+                            scheduled_flag = True
                             break
         else:
             unscheduled_list.append(name)
