@@ -1,0 +1,22 @@
+[
+  {
+    "name": "lauren",
+    "days": ["monday","tuesday","wednesday","thursday"]
+  },
+  {
+    "name": "colleen",
+    "days": ["monday","tuesday","wednesday","thursday"]
+  },
+  {
+    "name": "jenn",
+    "days": ["monday"]
+  },
+  {
+    "name": "kiara",
+    "days": ["wednesday","thursday"]
+  },
+  {
+    "name": "brittanie",
+    "days": ["monday","tuesday","wednesday"]
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "super elite ballet",
+    "instructor": "lauren",
+    "days": ["monday"],
+    "duration": 60,
+    "conflicts": ["super", "elite"]
+  },
+  {
+    "name": "elite lyrical",
+    "instructor": "lauren",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["elite"]
+  },
+  {
+    "name": "elite jazz",
+    "instructor": "colleen",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["elite"]
+  },
+  {
+    "name": "super elite modern",
+    "instructor": "lauren",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["super","elite"]
+  },
+  {
+    "name": "super jazz",
+    "instructor": "lauren",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["super"]
+  },
+  {
+    "name": "super lyrical",
+    "instructor": "lauren",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["super"]
+  },
+  {
+    "name": "super elite hiphop",
+    "instructor": "jenn",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["shooting","super","elite"]
+  },
+  {
+    "name": "super elite musical theater",
+    "instructor": "jenn",
+    "days": ["monday"],
+    "duration": 30,
+    "conflicts": ["super","elite"]
+  }
+]
