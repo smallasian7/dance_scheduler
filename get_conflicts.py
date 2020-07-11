@@ -6,7 +6,10 @@ def get_conflicts(day_schedule, pending_room, time_slot, conflicts):
             continue
         else:
             for conflict in conflicts:
-                if conflict in room[time_slot]:
+                conflict_name = day_schedule[room][time_slot]
+                if conflict_name is None:
+                    return conflict_flag
+                elif conflict in conflict_name:
                     conflict_flag = True
                     return conflict_flag
     else:
